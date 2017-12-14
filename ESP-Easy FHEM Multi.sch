@@ -12831,8 +12831,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="X1" gate="-2" x="139.7" y="48.26"/>
 <instance part="X2" gate="-1" x="210.82" y="53.34"/>
 <instance part="X2" gate="-2" x="210.82" y="48.26"/>
-<instance part="X3" gate="-1" x="17.78" y="162.56"/>
-<instance part="X3" gate="-2" x="17.78" y="167.64"/>
+<instance part="X3" gate="-1" x="17.78" y="167.64"/>
+<instance part="X3" gate="-2" x="17.78" y="162.56"/>
 <instance part="JP1" gate="A" x="27.94" y="30.48"/>
 <instance part="R6" gate="G$1" x="116.84" y="20.32" rot="R90"/>
 <instance part="R7" gate="G$1" x="187.96" y="20.32" rot="R90"/>
@@ -12890,7 +12890,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="10.16" y1="160.02" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-1" pin="KL"/>
+<pinref part="X3" gate="-2" pin="KL"/>
 <wire x1="10.16" y1="162.56" x2="15.24" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13198,7 +13198,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="P+2" gate="1" pin="+24V"/>
 <wire x1="10.16" y1="167.64" x2="10.16" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="KL"/>
+<pinref part="X3" gate="-1" pin="KL"/>
 <wire x1="10.16" y1="167.64" x2="15.24" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
